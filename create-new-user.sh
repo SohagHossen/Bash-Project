@@ -28,11 +28,11 @@ COMMENT="${@}"
 #Create a password
 
 PASSWORD=$(date +%s%N)
-echo $PASSWORD 
+ 
 
 #Create The User 
 
-useradd -c $COMMENT -m $USER_NAME
+useradd -c "${COMMENT}" -m $USER_NAME
 
 #Check if user is successfuly create or not.
 
@@ -42,7 +42,7 @@ then
 	exit 1
 
 #set the password for the user.
-passwd $USER_NAME
+echo $PASSWORD | passwd --stdin $USER_NAME
 
 #Check if password is successfully set or not
 
@@ -54,5 +54,12 @@ fi
 
 #Force password change on first login.
 
-#Display the username, password, and the host where user create.
+passwd -e $USER_NAME
 
+#Display the username, password, and the host where user create.
+echo 
+echo "User Name: $USER_NAME"
+echo
+echo "Password: $PASSWORD"
+echo
+echo "Host Name: $(hostname)"
