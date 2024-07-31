@@ -40,7 +40,7 @@ if [[ $? -ne 0 ]]
 then
 	echo "The account cloud not be created"
 	exit 1
-
+fi
 #set the password for the user.
 echo $PASSWORD | passwd --stdin $USER_NAME
 
