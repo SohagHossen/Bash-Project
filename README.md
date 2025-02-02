@@ -1,6 +1,24 @@
 ## Bash-Project  
 
 
+### Installation  
+
+Follow these steps to clone and install the project on your local machine.  
+
+Prerequisites  
+
+Ensure you have the following installed:  
+
+- Git  
+
+- Bash (for executing scripts)
+
+### Clone the Repository
+`git clone https://github.com/SohagHossen/Bash-Project.git`  
+
+### Navigate to the Project Directory  
+`cd Bash-Project`  
+
 ### Make the Script Executable  
 * Give the script execute permissions:  
  `chmod +x /path/to/backup_script.sh`  
