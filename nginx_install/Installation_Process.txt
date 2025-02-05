@@ -1,0 +1,5 @@
+# Make the script executable:
+chmod +x install_nginx.sh
+
+#Run the script:
+sudo ./install_nginx.sh
