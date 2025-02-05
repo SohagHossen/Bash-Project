@@ -13,7 +13,7 @@ Ensure you have the following installed:
 
 - Bash (for executing scripts)
 
-### Clone the Repository
+### Clone the Repository as you need.
 `git clone https://github.com/SohagHossen/Bash-Project.git`  
 
 ### Navigate to the Project Directory  
