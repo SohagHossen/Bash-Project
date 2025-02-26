@@ -3,7 +3,7 @@
 
 ### Installation  
 
-Follow these steps to clone and install the project on your local machine.  
+You can follow these steps to clone and install the project on your local machine.  
 
 Prerequisites  
 
@@ -55,4 +55,4 @@ Ensure you have the following installed:
 - Test SSH access:  
   `ssh user@remote_server_ip `
  
- - Make the Script Executable and Run the Backup Script if Automate the Backup then run a cron job.
+ - Make the Script Executable and Run the Backup Script if automating the Backup, then run a cron job.
